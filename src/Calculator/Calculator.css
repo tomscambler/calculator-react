@@ -1,0 +1,20 @@
+.NumberGrid{
+    display:flex;
+    width:150px;
+}
+.OperationGrid{
+    display:flex;
+    width:50px;
+}
+
+.DisplayScreen{
+    font-size: 20pt;
+    height:50px;
+    color:greenyellow;
+
+}
+
+.Dashboard{
+    display:flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
