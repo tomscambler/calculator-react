@@ -50,7 +50,7 @@ function App() {
 
   const numberSymbols    = [1,2,3,4,5,6,7,8,9,0];
   const operationSymbols = ['+','-','*','/','^'];
-  const powerSymbols     = ['=','C','AC','del'];
+  const powerSymbols     = ['=','C','AC','Del'];
 
   return (
     <div className="calculator">
@@ -109,13 +109,13 @@ function App() {
                     setOperand(null);
                     setDisplay(0);
                     setOperation('');
-                    break
+                    break;
                   case  'C':
                     setOperand(display);
                     setDisplay(0);
                     setOperation('');
                     break;
-                  case  'del':
+                  case  'Del':
                     setOperand(operand===null?null:parseFloat(operand.toString().slice(0,-1)));
                     break;
                 }
